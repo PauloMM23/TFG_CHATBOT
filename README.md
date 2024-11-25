@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # TFG_CHATBOT
 Repositório do Trabalho Final de Graduação.
 
@@ -50,13 +49,14 @@ https://developers.google.com/oauthplayground/
 - Fim.
 
 # Atualizando as credenciais no código do chatbot
+- assets -> Colocar seu arquivo json na pasta assets, substituindo o já existente;
+- main.dart -> clientId: "Seu clientID aqui";
+            -> final jsonString = await rootBundle.loadString('assets/seuArquivoJsonAqui.json');
+            -> Uri.parse('https://dialogflow.googleapis.com/v2/projects/ID_DO_SEU_PROJETO_GOOGLECONSOLE_AQUI/agent/sessions/$sessionId:detectIntent');
 
-=======
-# tfg_chatbot
 
-A new Flutter project.
 
-## Getting Started
+# FLUTTER
 
 This project is a starting point for a Flutter application.
 
