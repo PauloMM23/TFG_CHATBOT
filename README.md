@@ -3,6 +3,7 @@ Repositório do Trabalho Final de Graduação.
 
 Instruções para configuração e utilização do Chatbot.
 Para execução do projeto utilizei o VSCode.
+Comando para executar main.dart -> flutter run -d chrome --web-port=8080
 
 # Configurando Flutter
 - Baixar Flutter -> https://storage.googleapis.com/flutter_infra_release/releases/stable/windows/flutter_windows_3.24.5-stable.zip
