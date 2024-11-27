@@ -27,4 +27,4 @@ flutter:
   uses-material-design: true
 
   assets:
-    - assets/seuArquivoJsonAqui.json
+    - assets/seuArquivoJsonAqui.json # Coloque seu arquivo JSON aqui.
