@@ -9,7 +9,7 @@ import 'package:flutter/services.dart' show rootBundle;
 import 'package:uuid/uuid.dart';
 
 final GoogleSignIn _googleSignIn = GoogleSignIn(
-  clientId: "256505339310-s154tbd4qsf4b34guboha3ioqtsb9kob.apps.googleusercontent.com",
+  clientId: "Seu clientID aqui", // Coloque seu clientID
   scopes: [
     calendar.CalendarApi.calendarScope,
     'https://www.googleapis.com/auth/dialogflow',
@@ -70,7 +70,7 @@ class _ChatScreenState extends State<ChatScreen> {
   }
 
   Future<void> _loadAuthToken() async {
-    final jsonString = await rootBundle.loadString('assets/tfg-final-440713-a62f73e08dad.json');
+    final jsonString = await rootBundle.loadString('assets/seuArquivoJsonAqui.json'); // Substituir seuArquivoJsonAqui.json.
     final jsonMap = jsonDecode(jsonString);
     final accountCredentials = ServiceAccountCredentials.fromJson(jsonMap);
     final scopes = [
@@ -155,7 +155,7 @@ class _ChatScreenState extends State<ChatScreen> {
     }
 
     final response = await http.post(
-      Uri.parse('https://dialogflow.googleapis.com/v2/projects/tfg-final-440713/agent/sessions/$sessionId:detectIntent'),
+      Uri.parse('https://dialogflow.googleapis.com/v2/projects/ID_DO_SEU_PROJETO_GOOGLECONSOLE_AQUI/agent/sessions/$sessionId:detectIntent'), // Substituir ID_DO_SEU_PROJETO_GOOGLECONSOLE_AQUI.
       headers: {
         'Authorization': 'Bearer $_accessToken',
         'Content-Type': 'application/json; charset=UTF-8',
