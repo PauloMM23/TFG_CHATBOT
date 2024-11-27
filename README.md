@@ -54,6 +54,8 @@ https://developers.google.com/oauthplayground/
 - main.dart -> clientId: "Seu clientID aqui";
             -> final jsonString = await rootBundle.loadString('assets/seuArquivoJsonAqui.json');
             -> Uri.parse('https://dialogflow.googleapis.com/v2/projects/ID_DO_SEU_PROJETO_GOOGLECONSOLE_AQUI/agent/sessions/$sessionId:detectIntent');
+- pubspec.yaml -> assets:
+                    - assets/seuArquivoJsonAqui.json
 
 
 
