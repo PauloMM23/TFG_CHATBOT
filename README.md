@@ -5,6 +5,9 @@ Instruções para configuração e utilização do Chatbot;
 Para execução do projeto utilizei o VSCode;
 Comando para executar main.dart -> flutter run -d chrome --web-port=8080
 
+# Link Vídeo de exemplo funcionando
+https://youtu.be/5At9qNgn_Cc?si=jaZJIOsvq_sER8C3
+
 # Configurando Flutter
 - Baixar Flutter -> https://storage.googleapis.com/flutter_infra_release/releases/stable/windows/flutter_windows_3.24.5-stable.zip
 - Criar uma pasta chamada src no disco local e extrair o zip do flutter que foi baixado anteriormente.
